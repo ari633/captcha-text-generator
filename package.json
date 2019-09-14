@@ -1,0 +1,39 @@
+{
+  "name": "captcha-text-generator",
+  "version": "1.0.0",
+  "description": "a react component for generate captcha text",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-file index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ari633/captcha-text-generator.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "react-component",
+    "reactjs-captcha",
+    "reactjs-captcha-generator"
+  ],
+  "author": "Ari Pratomo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ari633/captcha-text-generator/issues"
+  },
+  "homepage": "https://github.com/ari633/captcha-text-generator#readme",
+  "peerDependencies": {
+    "react": "^16.6.1",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
