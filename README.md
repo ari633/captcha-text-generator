@@ -8,7 +8,7 @@ This is a reactjs component for generating captcha text.
 ## Basic usage
 ### Import the component to your code:
 ```js
-import RCG from 'react-captcha-generator';
+import CaptchaTextGenerator from 'react-captcha-generator';
 ```
 ### Add component to your code:
 ```js
