@@ -1,0 +1,63 @@
+{
+  "name": "captcha-text-generator",
+  "private": false,
+  "version": "2.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ari633/captcha-text-generator.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "react-component",
+    "reactjs-captcha",
+    "reactjs-captcha-generator"
+  ],
+  "author": "Ari Pratomo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ari633/captcha-text-generator/issues"
+  },
+  "homepage": "https://github.com/ari633/captcha-text-generator#readme",
+  "peerDependencies": {
+    "react": "16.8.0 || >=17.x",
+    "react-dom": "16.8.0 || >=17.x"
+  },
+  "files": [
+    "dist",
+    "README"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/captcha-text-generator.es.js",
+      "require": "./dist/captcha-text-generator.umd.js"
+    }
+  },
+  "main": "./dist/captcha-text-generator.umd.js",
+  "module": "./dist/captcha-text-generator.es.js",
+  "types": "./dist/index.d.ts",
+  "devDependencies": {
+    "@types/node": "^20.8.3",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
